@@ -1,13 +1,12 @@
-module From exposing (..)
+module To exposing (..)
 
 import Html exposing (..)
-import Html.App as App
 import Random exposing (float)
 
 
-main : Program Never
+main : Program Never Model Msg
 main =
-    App.program
+    program
         { init = init
         , update = update
         , view = view

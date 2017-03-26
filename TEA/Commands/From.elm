@@ -1,12 +1,11 @@
 module From exposing (..)
 
 import Html exposing (..)
-import Html.App as App
 
 
-main : Program Never
+main : Program Never Model Msg
 main =
-    App.beginnerProgram
+    beginnerProgram
         { model = initialModel
         , update = update
         , view = view
