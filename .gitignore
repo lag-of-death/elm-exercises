@@ -1,0 +1,6 @@
+elm-stuff/
+*.iml
+*.xml
+*.exe
+*.html
+/.idea/.gitignore
